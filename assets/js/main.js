@@ -63,8 +63,8 @@ btnPlayElement.addEventListener('click', function(){
 
     let rnd_user = Math.floor(Math.random() * (6 - 1 + 1) ) + 1;
     let rnd_computer = Math.floor(Math.random() * (6 - 1 + 1) ) + 1;
-    console.log(rnd_user);
-    console.log(rnd_computer);
+    // console.log(rnd_user);
+    // console.log(rnd_computer);
     // Stabilire il vincitore, in base a chi fa il punteggio più alto
 
     if (rnd_user > rnd_computer) { // controllo se ha vinto l'utente
