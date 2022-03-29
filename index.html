@@ -10,12 +10,14 @@
 </head>
 <body>
 
-    <div class="container_small">
+    <div class="container_small bg-dark text-white p-4">
+
+        <h2 class="text-uppercase text-center">Controllo Email</h2>
 
         <form class="mb-3">
             <label class="form-label d-block pt-5">Inserisci Email</label>
             <input type="email" class="form-control email_form" id="email_user" placeholder="nome@ruolo.boolean.com">
-            <button type="button" class="btn btn-primary ms-4 p-2" id="btn_go">Go</button>
+            <button type="button" class="btn btn-primary ms-4 p-2" id="btn_go">Vai</button>
             <button type="button" class="btn btn-primary ms-4 p-2" id="btn_reset">reset</button>
         </form>
         <!-- /.form email  -->
@@ -23,7 +25,21 @@
         <h3 class="welcome"></h3>
 
     </div>
-    <!-- /.container -->
+    <!-- /.container_small -->
+
+    <div class="container_small bg-warning text-center p-4">
+
+        <h2 class="text-uppercase mb-5">Gioco Dadi</h2>
+
+        <button type="button" class="btn btn-success me-4 p-2" id="btn_play">Gioca</button>
+        <button type="button" class="btn btn-danger ms-4 p-2" id="btn_stop">Stop</button>
+
+        <h3 class="winner p-3"></h3>
+        <span class="your_result p-3"></span>
+        <span class="computer_result p-3"></span>
+
+    </div>
+    <!-- /.container_small -->
     
 
 
