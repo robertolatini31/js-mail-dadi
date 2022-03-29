@@ -3,3 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container_small {
+    width: 900px;
+    margin: 2rem auto;
+}
+
+.email_form {
+    width: 300px!important;
+    display: inline-block;
+}
