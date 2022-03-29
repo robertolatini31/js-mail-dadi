@@ -25,8 +25,23 @@ btnGoElement.addEventListener('click', function() {
     // se rientra nella lista stampo il messaggio di bentornato
     if (control == true) {
         let h3Element = document.querySelector('.welcome').innerHTML = `Bentornato ${emailUserElement}`;
+    } else {
+        let h3Element = document.querySelector('.welcome').innerHTML = `Accesso Negato`;
     }
 })
 
 
+// collego btn_reset
+const btnResetElement = document.getElementById('btn_reset');
+//collego il form
+const formElement = document.querySelector('form');
 
+// creo funzione per il click del btn_reset
+btnResetElement.addEventListener('click', function() {
+
+    // resetto il form
+    formElement.reset();
+
+    // resetto h3 in html
+    let h3Element = document.querySelector('.welcome').innerHTML = ``;
+})
